@@ -1,0 +1,23 @@
+<main>
+
+    <section class="carousel">
+
+    </section>
+<br>
+    <section>
+        <div class="container item-container"   >
+            <div  class="items" *ngFor="let item of data , let index = index">
+                <app-main-item  [item] = "item"></app-main-item>
+            </div>
+           
+           
+            <app-item-group ></app-item-group> 
+            
+
+        </div>
+    </section>
+
+
+   
+
+</main>

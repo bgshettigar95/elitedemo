@@ -1,0 +1,66 @@
+.card-group{
+
+ display: flex;
+ flex-direction: row;
+ flex-flow: wrap;
+ justify-content: center;
+ height: 100%;
+}
+
+
+.card{
+
+ 
+    min-width: 250px;
+    max-width: 320px;
+}
+.img-container{
+    margin-bottom: 0;
+}
+
+.img{
+
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+   
+}
+
+.card-body{
+    font-weight: bold;
+}
+
+.card-title{        
+    font-weight: bold;
+}
+
+.main-content{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.sub-conntent{
+font-weight: normal;
+}
+
+.profile-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+}
+
+.profile-name{
+    margin-bottom: 0;
+}
+
+@media (max-width : 600px   ){
+
+    .card-group{
+
+       max-width: 320px;
+       flex-basis: 100%;
+    }
+
+
+}

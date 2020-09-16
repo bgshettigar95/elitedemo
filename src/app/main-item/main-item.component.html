@@ -1,0 +1,28 @@
+<div class="card item" >
+    <img class="card-img-top" [src]="item.imageUrl" alt="Card image" style="width:100%">
+    <div class="card-body">
+      
+      <p class="card-text">{{item.itemText}}</p>
+      
+    </div>
+
+    <div class="card-footer">
+
+      <ul class="footer-items">
+        <li class="footer-item">
+
+          <h5><i class="fa fa-heart" aria-hidden="true"></i>   {{item.likes}}</h5>
+        </li>
+
+        <li>
+
+          <h5><i class="fa fa-comment" aria-hidden="true"></i> {{ item.chat}}</h5>
+        </li>
+
+        <li>
+
+          <h5><i class="fa fa-eye" aria-hidden="true"></i>  {{item.eye}}</h5>
+        </li>
+      </ul>
+    </div>
+  </div>

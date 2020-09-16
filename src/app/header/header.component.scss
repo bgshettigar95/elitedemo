@@ -1,0 +1,174 @@
+.main-header{
+
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+
+
+.toggle-button {
+  width: 3rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding-top: 0;
+  padding-bottom: 0;
+  vertical-align: middle;
+}
+
+.toggle-button:focus {
+  outline: none;
+}
+
+.toggle-button__bar {
+  width: 100%;
+  height: 0.2rem;
+  background: black;
+  display: block;
+  margin: 0.6rem 0;
+}
+
+.maim-nav-items{
+  display: none;
+}
+
+
+.search{
+    background-color: rgba(238, 241, 245, 0.904);
+border: 0.5px solid rgb(229, 232, 235);
+color: rgb(195, 199, 204);
+padding: 0px 5px;
+width: 45%;
+display: none;
+
+
+}
+
+
+.search-input{
+border: none;
+    background-color: rgba(238, 241, 245, 0.904);
+    display: inline-block;
+    width : 90%;
+    height: 52px;
+    outline:none;
+
+}
+
+.search-input, .search-input:focus
+{
+
+    outline:0px !important;
+  -webkit-appearance:none;
+
+}
+
+.search-input:focus{
+border: none;
+    outline: none;
+}
+
+.search-icon{
+
+padding: 0 4px;
+}
+
+::placeholder {
+    font-size: medium;
+    color: rgb(195, 199, 204);
+  }
+
+  .nav-item{
+      color: black;
+      padding: 0 15px;
+      border-right: 1px solid rgb(229, 232, 235);
+    
+  }
+
+  .main-nav a{
+
+    color: black;
+  }
+
+
+  .main-nav a:active{
+
+    color: darkslategray;
+    font-weight: bold;
+  }
+
+  .link-active{
+    color: darkslategray;
+    font-weight: bold;
+
+  }
+  .navbar-brand{
+
+    font-weight: bold;
+  }
+
+
+  
+.mobile-nav {
+  display: none;
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  background: white;
+  width: 80%;
+  height: 100vh;
+}
+
+.mobile-nav__items {
+  width: 90%;
+  height: 100%;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-nav__item {
+  margin: 0.8rem 0;
+}
+
+.mobile-nav__item a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  
+  font-weight: bold;
+  
+}
+
+.mobile-nav__item--cta{
+}
+
+
+.show{
+
+  display: block;
+}
+
+  @media (min-width: 40rem) {
+
+
+   .maim-nav-items{
+     display: flex;
+   }
+   
+.search{
+
+display: inline-block;
+}
+
+.toggle-button {
+  display: none;
+}
+  }

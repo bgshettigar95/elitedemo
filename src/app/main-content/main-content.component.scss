@@ -1,0 +1,81 @@
+
+.carousel-container{
+    margin: 0;
+}
+
+.carousel{
+
+    background-image: url("../../assets/banner.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: auto;
+}
+
+
+.item-container{
+ display: flex;
+ flex-direction: row;
+ flex-flow: wrap;
+ justify-content: center;
+ 
+}
+
+.items{
+
+  display: flex;
+  flex-direction: row;
+ flex-flow: wrap;
+ justify-content: center;
+}
+
+app-main-item{
+margin: 5px;
+
+vertical-align: top;
+}
+
+
+app-item-group{
+  margin: 5px;
+ 
+  vertical-align: top;
+}
+
+
+
+
+// @media (min-width : 40rem   ){
+
+
+//     app-main-item{
+//       display: inline-block;
+//       width: 45%;
+
+
+//         }
+
+//         app-item-group{
+//           display: inline-block;
+//           height: 100%;
+//         }
+
+// }
+
+
+// @media (min-width : 55rem){
+
+
+//     app-main-item{
+//       display: inline-block;
+//       width: 30%;
+
+        
+//         }
+
+//         app-item-group{
+//           display: inline-block;
+        
+//         }
+
+// }
